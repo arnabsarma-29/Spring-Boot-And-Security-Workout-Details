@@ -14,8 +14,8 @@ import com.project2.workout_app.service.CurrentUserProvider;
 import com.project2.workout_app.service.WorkoutUserService;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-@Controller
 @RequestMapping ("/users")
+@Controller
 public class WorkoutUserController
 {
 	private final WorkoutUserService workoutUserService;
